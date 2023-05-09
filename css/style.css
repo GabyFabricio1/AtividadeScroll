@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    padding-left: 50px;
+    padding-top: 20px;
+    transition: background-color , 5s linear;
+}
+
+header .nav-menu ul {
+    display: flex;
+    gap: 30px;
+}
+
+main section{
+    height: 100vh;
+}
+
+.style-background{
+    background-color: midnightblue;
+}
+
+#servicos{
+    background-color: goldenrod;
+}
+#galeria{
+    background-color: indianred;
+}
+#contato{
+    background-color: darkolivegreen;
+}
+
+.seta{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    right: 30px;
+    font-size: 40px;
+    opacity: 0;
+}
+
+.show-seta{
+    opacity: 1;
+}
